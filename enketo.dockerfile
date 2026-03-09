@@ -1,6 +1,6 @@
 FROM enketo-mod:latest
 
-ENV ENKETO_SRC_DIR=/srv/src/enketo/packages/enketo-express
+ENV ENKETO_SRC_DIR=/srv/src/enketo_express
 WORKDIR ${ENKETO_SRC_DIR}
 
 # we copy the config template twice. eventually we do want to actually template
