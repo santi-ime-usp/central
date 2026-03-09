@@ -45,4 +45,4 @@ API_KEY=$(cat /etc/secrets/enketo-api-key) \
     > "$CONFIG_PATH"
 
 log "Starting enketo..."
-exec yarn workspace enketo-express start
+exec npm start
